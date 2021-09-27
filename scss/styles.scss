@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,400&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+html{       
+    font-size: 62.5%;
+    height: 100%;
+
+}
+
+body {
+    background-color:whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    width: 95%;
+    max-width: 1400px;
+    height: 100vh;
+    margin: 3rem auto;
+}
+
+.navbar-brand{
+    font-size: 1.2em;
+}
+
+.productos {
+    margin-top: 2rem;
+    background-color:honeydew;
+        .productos__filas {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+
+        }
+
+}
+
